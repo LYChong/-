@@ -1,0 +1,20 @@
+vue 渐进式 ：可插拔式  可扩展
+JavaScript 框架
+ 
+引入vue核心库  官网下载vue.js
+
+vue结构目录
+<template>
+
+</template>
+
+<script>
+
+</script>
+
+<style>
+    
+</style>
+
+
+html 模拟vue

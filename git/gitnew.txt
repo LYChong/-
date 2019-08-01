@@ -1,0 +1,39 @@
+本地生成用户名：
+git config --global user.name "LYChong"
+本地生成邮箱：
+git config --global user.email "2016211805@mail.chzu.edu.cn"
+
+配置ssh ：
+生成ssh
+ssh-keygen -t rsa -C 2016211805@mail.chzu.edu.cn
+发送给远程：
+去Github网站   设置（settings） -SSH  and...   New SSH      -title任意输入  key中输入  本地生成的ssh  id_rsa.pub
+将刚才本地的生成的复制到远程key中
+
+测试联通性：
+固定写法： ssh -T git@github.com
+
+如果本地与远程通信成功，在.ssh目录中有known_hosts
+如若失败，多试几次
+
+
+如何将本地的项目提交到github 中
+在本地新建git项目
+到相应的项目根目录中  右键 - git bash - 
+在命令行中输入git init
+
+在远程新建git项目
+在github中    your profile    中新建项目    生成  ssh HTTPS
+
+本地项目与远程项目关联
+命令：git remote add origin +  ssh  或者 HTTPS
+git remote add origin git@github.com:LYChong/yanqunStudy.git
+
+
+第一次发布（本地-远程）
+命令：
+git add .            //本地项目发送到暂存区
+git commit -m "注释内容”    //将暂存区的东西放到本地分支（master）
+git push -u origin master 
+
+

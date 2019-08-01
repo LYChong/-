@@ -1,0 +1,7 @@
+webpack : 打包，可将js 等静态资源  进行压缩，从而提高性能
+		  下载 ： cnpm install webpack -g     （加-g全局下载，整体计算机能够使用）
+				  cnpm install webpack-cli -g
+			
+		测试 ：webpack -v
+		
+		打包 cmd命令  ： webpack
