@@ -37,3 +37,13 @@ git commit -m "注释内容”    //将暂存区的东西放到本地分支（master）
 git push -u origin master 
 
 
+第一次下载项目：（远程-本地）
+git clone + ssh  或者 HTTPS
+eg: git clone git@github.com:LYChong/yanqunStudy.git
+
+更新：（本地-远程）
+git add .
+git commit - m  "注释内容"    //暂存区-本地分支（默认master）
+git push orgin master
+
+
